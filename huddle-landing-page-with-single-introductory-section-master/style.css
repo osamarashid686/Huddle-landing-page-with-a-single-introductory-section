@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #674bb1;
+  background-image: url('./images/bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-size: 90% 100%;
+}
+.logo{
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 200px;
+  float: left;
+}
+.illus-img{
+  position: absolute;
+  width: 50%;
+  top: 250px;
+  left: 50px;
+}
+/* right-side */
+.right-side{
+  float: right;
+  width: 40%;
+  height: 100%;
+}
+.right-side > h1{
+  width: 500px;
+  color: white;
+  margin-top: 300px;
+  font-size: 40px;
+}
+.right-side > p{
+  width: 500px;
+  color: rgba(255, 255, 255, 0.856);
+  margin-top: 30px;
+}
+.right-side > button{
+  width: 200px;
+  padding: 15px;
+  border: none;
+  border-radius: 100px;
+  font-size: 17px;
+  color: #674bb1;
+  box-shadow: 0px 10px 20px #553c90;
+  margin-top: 20px;
+}
+.right-side > button:hover{
+  background-color: #e980e7;
+}
+.social-icons{
+  position: relative;
+  top: 300px;
+  right: 50px;
+  float: right;
+  
+}
+.social-icons > .fab{
+  font-size: 20px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 100px;
+  padding: 10px;
+  margin-right: 15px;
+
+}
+.fab:hover{
+  border-color: #f754c6;
+  color: #f754c6;
+}
+.fa-facebook-f{
+  text-align: center;
+  width: 45px;
+  height: 45px;
+}
